@@ -65,16 +65,11 @@
 <link rel="stylesheet" href="/hs-fs/hub/6778953/hub_generated/template_assets/34843648046/1603725927335/circle/css/theme-overrides.css">
 <link rel="stylesheet" href="/hs-fs/hub/6778953/hub_generated/module_assets/41457515589/1616015853118/module_41457515589_content-image.min.css">
 
-<script type="text/javascript" src="/hubfs/canvas-nest.umd.js"></script>
-<script>
-  $(function() {
-    new CanvasNest($(".dnd_area-row-0-background-image")[0], {color: '88,160,220',opacity:0.86});
-  });
-</script>
 
 <!-- Editor Styles -->
 <style id="hs_editor_style" type="text/css">
-.dnd_area-row-0-background-image {
+/* .dnd_area-row-0-background-image  */
+#particles-js{
   background-image: url('/hubfs/up-gradient-tint.svg') !important;
   background-size: cover !important;
   background-position: center bottom !important;
@@ -447,17 +442,25 @@ $(function() {
 </header>
         </div>
       
+
 <main class="body-container-wrapper remove-dnd-duplicate">
   
-  <div class="container-fluid body-container">
+<div class="container-fluid body-container">
 <div class="row-fluid-wrapper">
 <div class="row-fluid">
 <div class="span12 widget-span widget-type-cell "  data-widget-type="cell" data-x="0" data-w="12">
 
-<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section dnd_area-row-0-padding dnd_area-row-0-background-image">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-cell dnd-column"  data-widget-type="cell" data-x="0" data-w="12">
+<!-- <canvas class="scene scene--full" style="width: 100%;" id="scene"></canvas> -->
+<!-- <canvas class="scene" style="width: 100%;" id="scene"></canvas> -->
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section dnd_area-row-0-padding dnd_area-row-0-background-image" 
+style="background-image: url(/hubfs/up-white2.svg) !important;
+background-size: cover !important;
+background-position: center bottom !important;
+background-repeat: no-repeat !important;">
 
+<div class="row-fluid " >
+<div class="span12 widget-span widget-type-cell dnd-column"  data-widget-type="cell" data-x="0" data-w="12">
+	
 <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
 <div class="row-fluid ">
 <div class="span12 widget-span widget-type-custom_widget dnd-module"  data-widget-type="custom_widget" data-x="0" data-w="12">
@@ -501,9 +504,24 @@ $(function() {
 
 </div><!--end widget-span -->
 </div><!--end row-->
-</div><!--end row-wrapper -->
+<style>
+	/* width: unset; */
+	/* height: unset !important; */
+	.particles-js-canvas-el{
+		/* height: unset !important; */
+		top: 0px;
+		position: absolute;
+	}
+</style>
 
-<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd_area-row-1-padding dnd-section">
+</div><!--end row-wrapper -->
+<div id="particles-js" class="" style="width: 100%; height: 600px; position: absolute; top: 0px;"></div>
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+	
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd_area-row-1-padding dnd-section" style="background-color: white;">
 <div class="row-fluid ">
 <div class="span12 widget-span widget-type-cell dnd-column"  data-widget-type="cell" data-x="0" data-w="12">
 
@@ -1063,9 +1081,7 @@ $(function() {
         </style>
         <section class="rich-text-module container" >
             <div class="row justify-content-center">
-              <div class="col-lg-6">
-              </div>
-                <div class="col-lg-12 row mx-0 justify-content-center align-items-center m-sm visa-row">
+                <div class="row mx-0 justify-content-center align-items-center m-sm visa-row">
                     <!-- <img src="/images/1.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
                     <div class="separator-v-line" style="width: 5%;"></div>
                     <img src="/images/2.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
@@ -1077,63 +1093,63 @@ $(function() {
                     <img src="/images/5.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
                     <div class="separator-v-line" style="width: 5%;"></div>
                     <img src="/images/6.png" alt="" class="crcl-logo img-fluid" style="width: 12%"> -->
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6  col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/1.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/2.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6  col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/3.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/4.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/5.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6  col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/6.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/7.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/8.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/9.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/10.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/11.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-3" style="text-align: center;margin: 0 0 1.4rem;">
-                      <div style="width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+                      <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/12.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
@@ -1200,13 +1216,13 @@ $(function() {
                     <div class="col-lg-4 footer__col-lg-4">
                       <ul class="row col-11">
                           <li class="col-12" style="padding-bottom: 10px;"><h4>community<br></h4></li>
-                          <li  class="col-4" > <a href="https://t.me/plainfinance_CN" target="_blank" class="mb-3"><img src="/images/com/telegram-fill.png" class="crcl-logo img-fluid" ></img></a></li>
-                          <li  class="col-4" > <a href="https://twitter.com/Plainfinance1" target="_blank" class="mb-3"><img src="/images/com/twitter-fill.png" class="crcl-logo img-fluid" ></img></a></li>
-                          <li class="col-4" > <a href="https://github.com/Plainfinance" target="_blank" class="mb-3"><img src="/images/com/github-fill.png" class="crcl-logo img-fluid" ></img></a></li>
-                          <li class="col-4" > <a href="https://medium.com/@plainfinance" target="_blank" class="mb-3"><img src="/images/com/medium-fill.png" class="crcl-logo img-fluid" ></img></a></li>
+                          <li  class="col-4" > <a href="https://t.me/plainfinance_CN" target="_blank" class="mt-2 mb-3"><img src="/images/com/telegram-fill.png" class="crcl-logo img-fluid" ></img></a></li>
+                          <li  class="col-4" > <a href="https://twitter.com/Plainfinance1" target="_blank" class="mt-2 mb-3"><img src="/images/com/twitter-fill.png" class="crcl-logo img-fluid" ></img></a></li>
+                          <li class="col-4" > <a href="https://github.com/Plainfinance" target="_blank" class="mt-2 mb-3"><img src="/images/com/github-fill.png" class="crcl-logo img-fluid" ></img></a></li>
+                          <li class="col-4" > <a href="https://medium.com/@plainfinance" target="_blank" class="mt-3 mb-3"><img src="/images/com/medium-fill.png" class="crcl-logo img-fluid" ></img></a></li>
                           <!-- <li class="col-3" > <a href="mailto:plainfinance@mail.com" target="_blank" class="mb-3"><img src="/images/com/youtube-fill.png" class="crcl-logo img-fluid" ></img></a></li> -->
-                          <li class="col-4" > <a href="https://www.reddit.com/user/Plainfinance" target="_blank" class="mb-3"><img src="/images/com/bxl-reddit.png" class="crcl-logo img-fluid" ></img></a></li>
-                          <li class="col-4" > <a href="mailto:plainfinance@mail.com" target="_blank" class="mb-3"><img src="/images/com/mail-fill.png" class="crcl-logo img-fluid" ></img></a></li>
+                          <li class="col-4" > <a href="https://www.reddit.com/user/Plainfinance" target="_blank" class="mt-3 mb-3"><img src="/images/com/bxl-reddit.png" class="crcl-logo img-fluid" ></img></a></li>
+                          <li class="col-4" > <a href="mailto:plainfinance@mail.com" target="_blank" class="mt-3 mb-3"><img src="/images/com/mail-fill.png" class="crcl-logo img-fluid" ></img></a></li>
                       </ul>
                         <!-- <ul class="col-6" style="float: left;"  >
                             <li style="padding-bottom: 10px;"><h4>community<br></h4></li>
@@ -1262,7 +1278,11 @@ if (typeof hsVars !== 'undefined') { hsVars['language'] = 'en'; }
 </script>
 
 <script src="/hs/hsstatic/cos-i18n/static-1.27/bundles/project.js"></script>
-
+<style>
+footer.footer ul li a {
+    text-align: center;
+}
+</style>
 
 </body>
 </html>
