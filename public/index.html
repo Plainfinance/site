@@ -65,6 +65,12 @@
 <link rel="stylesheet" href="/hs-fs/hub/6778953/hub_generated/template_assets/34843648046/1603725927335/circle/css/theme-overrides.css">
 <link rel="stylesheet" href="/hs-fs/hub/6778953/hub_generated/module_assets/41457515589/1616015853118/module_41457515589_content-image.min.css">
 
+<!-- <script type="text/javascript" src="/hubfs/canvas-nest.umd.js"></script>
+<script>
+  $(function() {
+    new CanvasNest($(".dnd_area-row-0-background-image")[0], {color: '88,160,220',opacity:1.0,count:200});
+  });
+</script> -->
 
 <!-- Editor Styles -->
 <style id="hs_editor_style" type="text/css">
@@ -371,6 +377,35 @@ $(function() {
             </div>
             <div class="row">
               <a href="javascript:void(0)" class="button jelly m-btn">Enter the application</a>
+              <a href="javascript:void(0)" class="button  clear" style="width: 100%;"  data-toggle="modal" data-target="#exampleModal">subscription</a>
+            </div>
+          </div>
+          <div class="w-100 mt-4 mb-4" style="border-bottom: 1px solid #E3D5FE;"></div>
+          <div class="col-12" style="padding-left: 39px; padding-right: 39px">
+            <div class="row">
+              <div class="col">
+                <div class="row mb-1">
+                  <div class="col">
+                    <span class="drawer-header">Community</span>
+                  </div>
+                </div>
+                <!-- <div class="row mb-2"> -->
+                  <ul class="row mb-2">
+                    <li  class="col-4 mb-2" > <a href="https://t.me/plainfinance_CN" target="_blank" class="mt-2 mb-3">telegram</a></li>
+                    <li  class="col-4 mb-2" > <a href="https://twitter.com/Plainfinance1" target="_blank" class="mt-2 mb-3">twitter</a></li>
+                    <li class="col-4 mb-2" > <a href="https://github.com/Plainfinance" target="_blank" class="mt-2 mb-3">github</a></li>
+                    <li class="col-4 mb-2" > <a href="https://medium.com/@plainfinance" target="_blank" class="mt-3 mb-3">medium</a></li>
+                    <li class="col-4 mb-2" > <a href="https://www.reddit.com/user/Plainfinance" target="_blank" class="mt-3 mb-3">reddit</a></li>
+                    <li class="col-4 mb-2" > <a href="mailto:plainfinance@mail.com" target="_blank" class="mt-3 mb-3">mail</a></li>
+                  </ul>
+                  <!-- <div class="col">
+                    <a href="javascript:void(0)">whitepaper</a>
+                  </div>
+                  <div class="col">
+                    <a href="javascript:void(0)">PAN Blockchain</a>
+                  </div> -->
+                <!-- </div> -->
+              </div>
             </div>
           </div>
           <div class="w-100 mt-4 mb-4" style="border-bottom: 1px solid #E3D5FE;"></div>
@@ -386,8 +421,6 @@ $(function() {
                   <div class="col">
                     <a href="javascript:void(0)">whitepaper</a>
                   </div>
-                </div>
-                <div class="row mb-2">
                   <div class="col">
                     <a href="javascript:void(0)">PAN Blockchain</a>
                   </div>
@@ -399,6 +432,33 @@ $(function() {
           <div class="col-12" style="padding-left: 39px; padding-right:39px;">
             <div class="row mb-1">
               <div class="col-6">
+                <div class="row mb-1">
+                  <div class="col">
+                    <span class="drawer-header">Company</span>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <a href="javascript:void(0)">We’re hiring!</a>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <a href="javascript:void(0)">Contact us</a>
+                  </div>
+                </div>
+                <div class="row mb-2">
+                  <div class="col">
+                    <a href="javascript:void(0)">Support</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="row mb-1">
+                  <div class="col">
+                    <span class="drawer-header">About</span>
+                  </div>
+                </div>
                 <div class="row mb-2">
                   <div class="col">
                     <a href="#Team">Team</a>
@@ -414,21 +474,9 @@ $(function() {
                     <a href="javascript:void(0)">Tokennomics</a>
                   </div>
                 </div>
-              </div>
-              <div class="col-6">
                 <div class="row mb-2">
                   <div class="col">
-                    <a href="javascript:void(0)">We’re hiring!</a>
-                  </div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col">
-                    <a href="javascript:void(0)">Contact us</a>
-                  </div>
-                </div>
-                <div class="row mb-2">
-                  <div class="col">
-                    <a href="javascript:void(0)">Support</a>
+                    <a href="/help/article_1.html">Q&A</a>
                   </div>
                 </div>
               </div>
@@ -706,23 +754,29 @@ background-repeat: no-repeat !important;">
         <div class="col-lg-6 row mx-0 px-0 align-items-start">
           <div class="col-12 mb-4 pb-lg-3">
             <div class="row justify-content-start align-items-start">
-              <div class="col-auto"><img src="/images/icon_pan_swap.png" alt="" class="callout-horizontal__icon position-relative" style="max-width: 213px;
+              <div class="col-auto">
+                <img src="/images/icon_pan_swap.png" alt="" class="d-none d-md-inline-block callout-horizontal__icon position-relative" style="max-width: 213px;
                 margin-bottom: -50px;
-                left: -54px;"></div>
+                left: -54px;">
+                <img src="/images/icon_pan_swap.png" alt="" class="d-block d-md-none callout-horizontal__icon position-relative" style="max-width: 213px;
+                margin-bottom: -50px;">
+              </div>
               <div class="col">
                 <div class="row"><h3 style="margin-top: 12px; margin-bottom: 12px">PAN Swap</h3></div>
                 <div class="row"><p>Exchange aggregation</p></div>
                 <div class="row"><a href="javascript:void(0)" class="standalone-link">Link</a></div>
               </div>
-
             </div>
-
           </div>
           <div class="col-12 mb-4 pb-lg-3">
             <div class="row justify-content-start align-items-start">
-              <div class="col-auto"><img src="/images/icon_pan_defi.png" alt="" class="callout-horizontal__icon position-relative" style="max-width: 213px;
+              <div class="col-auto">
+                <img src="/images/icon_pan_defi.png" alt="" class="d-none d-md-inline-block callout-horizontal__icon position-relative" style="max-width: 213px;
                 margin-bottom: -50px;
-                left: -54px;"></div>
+                left: -54px;">
+                <img src="/images/icon_pan_defi.png" alt="" class="d-block d-md-none callout-horizontal__icon position-relative" style="max-width: 213px;
+                margin-bottom: -50px;">
+              </div>
               <div class="col">
                 <div class="row"><h3 style="margin-top: 12px; margin-bottom: 12px">PAN Defi</h3></div>
                 <div class="row"><p>Defi aggregation</p></div>
@@ -735,9 +789,13 @@ background-repeat: no-repeat !important;">
 
           <div class="col-12">
             <div class="row justify-content-start align-items-start">
-              <div class="col-auto"><img src="/images/icon_pan_market.png" alt="" class="callout-horizontal__icon position-relative" style="max-width: 213px;
+              <div class="col-auto">
+                <img src="/images/icon_pan_market.png" alt="" class="d-none d-md-inline-block callout-horizontal__icon position-relative" style="max-width: 213px;
                 margin-bottom: -50px;
-                left: -54px;"></div>
+                left: -54px;">
+                <img src="/images/icon_pan_market.png" alt="" class="d-block d-md-none callout-horizontal__icon position-relative" style="max-width: 213px;
+                margin-bottom: -50px;">
+              </div>
               <div class="col">
                 <div class="row"><h3 style="margin-top: 12px; margin-bottom: 12px">PAN Market</h3></div>
                 <div class="row"><p>Strategy execution market</p></div>
@@ -1080,20 +1138,9 @@ background-repeat: no-repeat !important;">
           }
         </style>
         <section class="rich-text-module container" >
-            <div class="row justify-content-center">
+            <div class="d-none d-md-inline-block  row justify-content-center">
                 <div class="row mx-0 justify-content-center align-items-center m-sm visa-row">
-                    <!-- <img src="/images/1.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
-                    <div class="separator-v-line" style="width: 5%;"></div>
-                    <img src="/images/2.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
-                    <div class="separator-v-line" style="width: 5%;"></div>
-                    <img src="/images/3.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
-                    <div class="separator-v-line" style="width: 5%;"></div>
-                    <img src="/images/4.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
-                    <div class="separator-v-line" style="width: 5%;"></div>
-                    <img src="/images/5.png" alt="" class="crcl-logo img-fluid" style="width: 12%">
-                    <div class="separator-v-line" style="width: 5%;"></div>
-                    <img src="/images/6.png" alt="" class="crcl-logo img-fluid" style="width: 12%"> -->
-						    	  <div class="col-12 col-sm-6  col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
                       <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/1.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
@@ -1103,7 +1150,7 @@ background-repeat: no-repeat !important;">
                         <img src="/images/logo/2.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-12 col-sm-6  col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
                       <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/3.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
@@ -1118,7 +1165,7 @@ background-repeat: no-repeat !important;">
                         <img src="/images/logo/5.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
                     </div>
-						    	  <div class="col-12 col-sm-6  col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
+						    	  <div class="col-12 col-sm-6 col-md-4 col-xl-3" style="text-align: center;margin: 0 0 1.4rem;">
                       <div style="margin: auto;width: 240px;height: 100px;background-image:  url('/images/logo_back.png');">
                         <img src="/images/logo/6.png" style="margin-top: 28px;" class="crcl-logo img-fluid" ></img>
                       </div>
@@ -1155,6 +1202,71 @@ background-repeat: no-repeat !important;">
                     </div>
                 </div>
             </div>
+                
+            <div class="d-block d-md-none  row justify-content-center">
+                <div class="row mx-0 justify-content-center align-items-center m-sm visa-row">
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 8px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/1.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 4px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/2.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 8px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/3.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 4px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/4.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 8px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/5.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 4px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/6.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 8px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/7.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 4px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/8.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 8px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/9.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 4px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/10.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 8px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/11.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+                  <div class="col-6 " style="text-align: center;margin: 0 0 1.4rem;padding-left: 4px;">
+                    <div style="width:150px;height:62.5px;background-size: cover;margin: auto;background-image:  url('/images/logo_back.png');">
+                      <img src="/images/logo/12.png" style="margin-top: 15px;width: 120px;" class="crcl-logo img-fluid" ></img>
+                    </div>
+                  </div>
+              </div>
+            </div>
 			
         </section>
     </div>
@@ -1168,17 +1280,6 @@ background-repeat: no-repeat !important;">
 </div><!--end row-->
 </div><!--end row-wrapper -->
 
-<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd_area-row-6-padding dnd-section">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-cell dnd-column"  data-widget-type="cell" data-x="0" data-w="12">
-
-<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row">
-
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
 
 <div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-section">
 <div class="row-fluid ">
