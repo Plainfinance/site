@@ -311,6 +311,30 @@ $(function() {
 		});
 		return false;
 	});
+	
+	$("input[type=email]").on('invalid', function(e){
+		var msg;
+		if(e.target.validity.valueMissing){
+			msg = 'Your email address is missing';
+			e.target.setCustomValidity(msg);
+		}
+		else if(e.target.validity.typeMismatch){
+			msg = 'Your email address is invalid';
+			e.target.setCustomValidity(msg);
+		}
+		else if (!e.target.validity.valid) {
+			msg = 'Your email address is invalid';
+			e.target.setCustomValidity(msg);
+		}
+	}).on('change input', function(e){
+		e.target.setCustomValidity('');
+		var valid = e.target.checkValidity();
+		if (!e.target.validity.valid){
+			e.target.setCustomValidity('The email address "' + e.target.value + '" is invalid!');
+		} else{
+			e.target.setCustomValidity('');
+		}
+	});
 });
 </script>
 
